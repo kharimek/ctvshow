@@ -6,5 +6,9 @@ $(document).ready(function() {
 		alert("clicked!");
 	});
 
+	$.getJSON( "https://api.datamuse.com/words?sp=c", function( data ) {
+ 		console.log(JSON.parse(data));
+ 	});
+
 })
 
