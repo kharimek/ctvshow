@@ -1,0 +1,10 @@
+$(document).ready(function() {
+
+	var btn = document.querySelector('.btn');
+
+	btn.addEventListener('click', function() {
+		alert("clicked!");
+	});
+
+})
+
